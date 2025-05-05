@@ -1,13 +1,131 @@
-<link rel="stylesheet" href="styles.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Currículum</title>
-  </head>
-  <body>
-    ― ¡Hola Mundo! &#x1F609;
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Currículum - Benjamín Maurys Campos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <div class="resume">
+      <div class="container">
+        <!-- Encabezado -->
+        <div class="resume__block">
+          <h1 class="contact-info__header">Benjamín Maurys Campos</h1>
+          <h3 class="contact-info__sub-header">Tecnólogo en Redes y Aprendiendo a Programar</h3>
+
+          <div class="contact_info_container fh">
+            <!-- Contacto izquierda -->
+            <div class="contact-info__block">
+              <a href="https://www.linkedin.com/in/tuusuario" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5..."></path>
+                  </svg>
+                </div>
+                <span>LinkedIn</span>
+              </a>
+
+              <a href="mailto:hspracticas@gmail.com" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M502.3 190.8c3.9-3.1..."></path>
+                  </svg>
+                </div>
+                <span>hspracticas@gmail.com</span>
+              </a>
+            </div>
+
+            <!-- Avatar -->
+            <div class="contact-info__block contact-info__block--center">
+              <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
+            </div>
+
+            <!-- Contacto derecha -->
+            <div class="contact-info__block">
+              <a href="https://github.com/HSPos-it" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path d="M165.9 397.4c0 2-2.3 3.6..."></path>
+                  </svg>
+                </div>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Introducción -->
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M464 256h-80v-64c0-35.3..."></path>
+              </svg>
+            </div>
+            <p class="intro_text">
+              Soy Benjamín, un tecnólogo en redes apasionado por el aprendizaje constante.
+              Me encuentro explorando el mundo de la programación y ya he desarrollado un sistema de facturación electrónica en C#.
+            </p>
+          </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Habilidades</h3>
+            <p class="skills__text">
+              Redes LAN/WAN, configuración de routers y switches, TCP/IP, HTML, CSS, Git, GitHub, lógica de programación, desarrollo en C# (nivel medio), trabajo en equipo, aprendizaje autodidacta.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experiencia y educación -->
+        <div class="resume__block">
+          <div class="main-info fh">
+            <div class="experiences">
+              <h3 class="experiences__header">Experiencia</h3>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2010 - Presente</span>
+                  <h3 class="experiences__company-header-name">Negocio Propio</h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">Gerente / Desarrollador</span>
+                  <h3 class="experiences__company-project-name">Sistema de Facturación e Inventario</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Desarrollo completo del sistema en C#</li>
+                    <li>Facturación electrónica (Colombia)</li>
+                    <li>Control de inventario y reportes</li>
+                    <li>Implementación en negocio local</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="additional-info fv">
+              <div class="additional-info__education">
+                <h3 class="additional-info__education-header">Educación</h3>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">2023</span>
+                  <h3 class="additional-info__education-university-speciality">Tecnólogo en Redes</h3>
+                  <p class="additional-info__education-university-name">[Nombre de tu institución]</p>
+                </div>
+              </div>
+
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">Idiomas</h3>
+                <p class="additional-info__languages-item">Español (nativo)</p>
+                <p class="additional-info__languages-item">Inglés (básico/intermedio)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</body>
 </html>
